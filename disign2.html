@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>LAYOUT TWOt</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: arial;
+            padding: 10px;
+            background-color: darkgoldenrod;
+
+        }
+        #navbar{
+            background-color: blueviolet;
+            height: 50px;
+            overflow: hidden;
+        }
+        #navbar a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 14px 16px;
+            margin-top: 10px;
+            display: block;
+            float: left;
+            text-transform: uppercase;
+        }
+        .card{
+         width: 100%;
+         background-color: royalblue;
+         padding: 20px;
+         margin-top: 20px;
+         color: white;
+        }
+         h3{
+            font-family: cursive;
+        }
+        .cards{
+            height: 500px;
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: royalblue;
+            color: white;
+
+        }
+        #footer{
+            width: 100%;
+            background-color: #f1f1f1; 
+            column-count: 3;
+            margin-top: 10px;
+            background-color: white;
+            padding: 0px;
+            height: 250px;
+            text-align: center;
+            background-color: aquamarine;
+        }
+        
+        #footer .contact {
+            margin-top:-20px;
+        }
+        
+        @media (max-width:500px){
+            body{
+                background-color: blueviolet;
+            }
+            h1{
+                font-size: 20px;
+            }
+            h3{
+                font-size: 5px;
+            }
+        }
+        @media only screen and (min-width:700px) {
+            body{
+                background-color:orange;
+            }
+            h1{
+                font-size: 50px;
+                color: blue;
+            }
+            h3{
+                font-size: 20px;
+                color: crimson;
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="">Logo</a>
+        <a href="">About</a>
+        <a href="">Contact US</a>
+        <a href="" style="float: right;">Apply</a>
+    </div>
+    <div id=" content">
+      <div id="uppercolumn">
+        <div class="card">
+        <h1>Welcome to Miss Bibi's Website</h1>
+        <h3> There is a fun and a nice way to interact with people in this world</h3>
+        <div class="fakeimage" style="height: 200px;">Image</div>
+      </div>
+      </div>
+     <div id="lowercolumn">
+      <div class="cards">
+        <h1>Welcome to Miss Bibi's Website</h1>
+        <h3> There is a fun and a nice way to interact with people in this world</h3>
+        <div class="fakeimage" style="height: 200px;">Image</div>
+       </div>  
+    </div>
+   </div>
+   <div id="footer">
+     <div class="contact">
+        <h1>CONTACT US</h1>
+        <h3>E-Mail;abenarosa1016@gmail.com</h3>
+        <h3> Phone; 0501653710</h3>
+     </div>
+     <div class="follow-us">
+        <h1>CONTACT US</h1>
+        <h3>E-Mail;abenarosa1016@gmail.com</h3>
+        <h3> Phone; 0501653710</h3>
+     </div>
+     <div class="others">
+        <h1>CONTACT US</h1>
+        <h3>E-Mail;abenarosa1016@gmail.com</h3>
+        <h3> Phone; 0501653710</h3>
+     </div>
+   </div>
+</body>
+</html>
